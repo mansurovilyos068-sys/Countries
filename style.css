@@ -1,0 +1,85 @@
+body {
+    background-color: blue;
+    margin: 0;
+}
+
+.ul {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+ol {
+    font-family: cursive;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 445px;
+    height: 350px;
+    padding: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+    transition: all 500ms;
+}
+
+ol:hover {
+    cursor: pointer;
+    font-family: cursive;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 445px;
+    height: 350px;
+    padding: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+    transform: translateY(15px);
+}
+
+h1 {
+    font-size: 50px;
+    font-family: cursive;
+    align-items: center;
+    color: white;
+}
+
+.div {
+    margin-left: 550px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+img {
+    margin-top: 15px;
+    width: 300;
+    height: 230px;
+    margin-right: 10px;
+    transition: all 2s;
+}
+
+img:hover {
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 320;
+    height: 230px;
+    box-shadow: 0 0 20px rgb(0, 0, 0), 0 0 40px rgb(0, 0, 0)
+}
+
+.inp {
+    font-family: cursive;
+    color: white;
+    align-items: center;
+    background-color: blue;
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.hidden{
+    display: none;
+}
